@@ -12,7 +12,7 @@ body {
 nav {
   float: top;
   height: 66px;
-  background-color: blue;
+  background-color: lightgray;
 }
 
 .nav-left {
@@ -34,6 +34,7 @@ nav {
 .nav-icon {
   float: left;
   display: block;
+  margin-left: 11px;
 }
 
 /* Main Content */
@@ -48,11 +49,14 @@ nav {
 .video-container {
   margin: 22px;
   height: 300px;
-  width: 90%;
   background-color: crimson;
 }
 
 /* Video info */
+
+.video-info {
+  margin: 22px;
+}
 
 .video-info-top {
   overflow: auto;
@@ -67,7 +71,7 @@ nav {
   margin-top: 44px
 }
 
-.video-interact {
+.video-interaction {
   float: left;
   display: block;
   font-size: 12pt;
@@ -111,7 +115,7 @@ nav {
 }
 
 .subscribe {
-  margin-left: 80%;
+  float: right;
   background-color: crimson
 }
 
@@ -150,6 +154,7 @@ nav {
 
 .user-icon {
   float: left;
+  margin: 11px;
 }
 
 .comment-field {
@@ -158,4 +163,68 @@ nav {
   font-size: 12pt;
 }
 
+.comment {
+  margin: 33px 11px;
+  display: block;
+  overflow: auto;
+}
+
+.comment-main {
+  margin-left: 11px;
+  float: left;
+}
+
+.comment-interaction {
+  float: left;
+  display: block;
+  margin-right: 11px;
+  font-size: 11pt;
+}
+
+.comment-time-posted {
+  color: grey;
+}
+
+.comment-content {
+  font-size: 14pt;
+  margin: 11px 0 11px 0;
+}
+
+.comment-title {
+  font-size: 12pt;
+}
+
 /* Sidebar */
+
+aside {
+  float: right;
+  width: 33%;
+}
+
+.sidebar-item {
+  margin: 11px 0;
+  display: block;
+  overflow: auto;
+}
+
+.sidebar-thumb {
+  float: left;
+  background-color: lightgreen;
+  height: 100px;
+}
+
+.sidebar-item-description {
+  display: block;
+}
+
+.sidebar-item-title {
+  font-size: 14pt;
+}
+
+.sidebar-item-channel {
+  font-size: 12pt;
+}
+
+.sidebar-item-info {
+  font-size: 10pt;
+}
