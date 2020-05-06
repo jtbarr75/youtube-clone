@@ -1,0 +1,161 @@
+/* Global */
+* { 
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+nav {
+  float: top;
+  height: 66px;
+  background-color: blue;
+}
+
+.nav-left {
+  float: left;
+  padding: 22px;
+}
+
+.nav-middle {
+  float: left;
+  margin-left: 25%;
+  padding: 22px;
+}
+
+.nav-right {
+  float: right;
+  padding: 22px;
+}
+
+.nav-icon {
+  float: left;
+  display: block;
+}
+
+/* Main Content */
+
+.main {
+  /* margin-top: 66px; */
+  float: left; 
+  width: 67%;
+  background-color: rgb(181, 196, 224);
+}
+
+.video-container {
+  margin: 22px;
+  height: 300px;
+  width: 90%;
+  background-color: crimson;
+}
+
+/* Video info */
+
+.video-info-top {
+  overflow: auto;
+}
+
+.video-info-left {
+  float: left;
+}
+
+.video-info-right {
+  float: right;
+  margin-top: 44px
+}
+
+.video-interact {
+  float: left;
+  display: block;
+  font-size: 12pt;
+  margin: 5px;
+}
+
+.title {
+  margin: 11px;
+  font-size: 16pt;
+}
+
+.views-and-date {
+  margin: 11px;
+  font-size: 12pt;
+}
+
+/* Description */
+
+.description-container {
+  padding: 22px 11px 22px 11px;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  overflow: auto;
+}
+
+.channel {
+  /* float: top; */
+}
+
+.channel-icon, .channel-info {
+  float: left;
+}
+
+.channel-info {
+  margin-left: 10px;
+  font-size: 12pt;
+}
+
+.channel-subscribers {
+  font-size: 10pt;
+}
+
+.subscribe {
+  margin-left: 80%;
+  background-color: crimson
+}
+
+.description {
+  margin-top: 22px;
+  clear: left;
+  font-size: 12pt;
+}
+
+.show-more {
+  font-size: 12pt;
+  color: gray;
+  margin-top: 11px;
+}
+
+/* Comments */
+
+.comments-header {
+  overflow: auto;
+  padding: 11px;
+}
+
+.comments-count {
+  float: left;
+}
+
+.sort-by {
+  float: left;
+  margin-left: 11px;
+}
+
+.comment-form {
+  overflow: auto;
+  padding: 11px;
+}
+
+.user-icon {
+  float: left;
+}
+
+.comment-field {
+  float: left; 
+  margin-left: 11px;
+  font-size: 12pt;
+}
+
+/* Sidebar */
