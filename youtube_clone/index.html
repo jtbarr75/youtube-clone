@@ -4,21 +4,30 @@
   <title>Page Title</title>
   <meta charset="UTF-8"/>
   <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2967b1bb61.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav> 
     <div class="nav-left">
-      Youtube
+      <div class="icon-container">
+        <i class="fas fa-bars icon"></i>
+      </div>
+      <div class="icon-container"></div>
+        <img src="assets/images/youtube_logo_1.png" alt="YouTube Logo" class="logo">
+      </div>
     </div>
     <div class="nav-middle">
-      Search
+      <form action="#">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
     </div>
     <div class="nav-right">
       <ul class="nav-icons">
-        <li class="nav-icon">icon1</li>
-        <li class="nav-icon">icon2</li>
-        <li class="nav-icon">icon3</li>
-        <li class="nav-icon">icon4</li>
+        <li class="nav-icon"><i class="fas fa-video"></i></li>
+        <li class="nav-icon"><i class="fas fa-th"></i></li>
+        <li class="nav-icon"><i class="fas fa-bell"></i></li>
+        <li class="nav-icon"><i class="fas fa-user-circle"></i></li>
       </ul>
     </div>
   </nav>
