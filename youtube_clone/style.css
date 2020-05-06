@@ -64,7 +64,7 @@ body {
 nav {
   height: 50px;
   font-size: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .nav-left {
@@ -105,16 +105,21 @@ nav {
 
 /* Main Content */
 
+.content {
+  background-color: rgb(245, 245, 245);
+  overflow: auto;
+}
+
 .main {
-  /* margin-top: 66px; */
+  margin-left: 65px;
   float: left; 
-  width: 75%;
+  width: 70%;
   /* background-color: rgb(181, 196, 224); */
 }
 
 .video-container {
   margin: 22px;
-  height: 300px;
+  height: 650px;
   background-color: crimson;
 }
 
@@ -265,34 +270,41 @@ nav {
 aside {
   float: right;
   width: 25%;
+  margin: 11px 0;
 }
 
 .sidebar-item {
   margin: 11px 0;
   display: block;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .sidebar-thumb {
   float: left;
   background-color: lightgreen;
-  height: 100px;
+  height: 90px;
 }
 
 .sidebar-item-description {
   display: block;
+  margin: 5px;
+  float: left;
 }
 
 .sidebar-item-title {
-  font-size: 14pt;
+  font-size: 12pt;
+  margin: 6px 0 6px 0;
 }
 
 .sidebar-item-channel {
-  font-size: 12pt;
+  font-size: 9pt;
+  color: gray;
+  margin: 3px 0 3px 0;
 }
 
 .sidebar-item-info {
-  font-size: 10pt;
+  font-size: 9pt;
+  color: gray
 }
 
 /* Icons and Logos */
